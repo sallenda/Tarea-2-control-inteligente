@@ -135,7 +135,7 @@ if __name__ == "__main__":
         print("Resumen por N:")
         for N_pop in N_VALUES:
             Js = np.array([r[1] for r in results[N_pop]])
-            print(f"N = {N_pop:3d}  mejor J = {Js.min():.6f}  promedio = {Js.mean():.6f}  desv. est. = {Js.std():.6f}")
+            print(f"N = {N_pop:3d}  mejor J = {Js.min():.6f}  promedio = {Js.mean():.6f}  desv. est. = {Js.std(ddof=1):.6f}")
 
         # Convergence curves: best J vs number of evaluations
         colors = {100: "tab:blue", 200: "tab:orange", 400: "tab:green"}
