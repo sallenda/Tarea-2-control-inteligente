@@ -1,0 +1,17 @@
+ python p1_main.py
+PASS: d=0 T=0.957420005039; P=21, S=80
+T0 analítico: 0.9574200050390526
+T modelo (primeros 5): [0.95742001 0.95742001 0.95742001 0.95742001 0.95742001]
+Diferencia máxima: 1.1102230246251565e-16
+Son iguales: True
+Antes:   t = (  50.60,   10.00)  J = 0.570371
+Después: t = (  55.25,   10.00)  J = 0.568041  (CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL)
+
+Antes:   t = ( 170.47,   10.00)  J = 0.586475
+Después: t = ( 170.85,   10.00)  J = 0.586459  (CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL)
+
+Antes:   t = (  60.27,  189.80)  J = 0.578919
+Después: t = (  57.77,  185.95)  J = 0.577139  (CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL)
+
+Antes:   t = ( 170.47,  189.80)  J = 0.604081
+Después: t = ( 173.36,  185.98)  J = 0.603191  (CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL)
